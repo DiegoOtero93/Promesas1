@@ -1,0 +1,178 @@
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.contenedorRopa{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.contenedorRopa__card{
+
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    gap: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.25rem;
+    font-family: Simpsons;
+    background-color: rgba(255, 255, 255, 0.419); 
+}
+
+.contenedorRopa__imagenCard{
+    height: 10rem;
+    width: 10rem;
+
+}
+.contenedorRopa__textoCard{
+    font: italic 1.2rem "Fira Sans", serif;
+
+
+}
+
+@media screen and (max-width: 968px) {
+    .contenedorRopa{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedorRopa__imagenCard{
+        width: 100%;
+        
+    }
+    
+}
+
+/* Estilos para la lista de Pokémon */
+/* Estilos para el contenedor principal */
+.contenedorLista__pokemons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Estilos para cada tarjeta de Pokemon */
+  .contenedor__cards {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilos para el título del Pokemon */
+  .contenedorPokemon__nombre {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para la imagen del Pokemon */
+  .contenedorPokemon__cardImg {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el texto adicional */
+  .contenedorPokemon__texto {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  
+
+.contenedor__Dragon{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+
+.lista__dragones{
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr ); 
+    justify-content: space-between;
+  list-style-type: none;
+  margin: 1rem;
+  
+  
+
+}
+.Contenedor__Randon {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilos para la imagen del usuario */
+  .Contenedor__Randon img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el nombre del usuario */
+  .Contenedor__Randon h2 {
+    margin: 10px 0;
+  }
+  
+  /* Estilos para el texto adicional */
+  .Contenedor__Randon p {
+    margin: 5px 0;
+  }
+  /* Estilos para el contenedor principal */
+.contenedor__videojuegos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Estilos para cada tarjeta de juego */
+  .contenedor {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilos para el título del juego */
+  .contenedor__titulo {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para la imagen del juego */
+  .contenedor__img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el texto adicional */
+  .contenedor__texto {
+    margin: 10px 0;
+    color: #666;
+  }
+  
